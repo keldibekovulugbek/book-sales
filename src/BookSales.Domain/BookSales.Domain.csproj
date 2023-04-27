@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Entities\ShoppingSessions\" />
+    <Folder Include="Entities\Orders\" />
+  </ItemGroup>
+
 </Project>
