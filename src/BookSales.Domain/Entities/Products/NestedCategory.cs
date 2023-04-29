@@ -8,6 +8,6 @@ public class NestedCategory : BaseEntity
 
     public string Description { get; set; } = string.Empty;
 
-    public int CategoryId { get; set; }
+    public long CategoryId { get; set; }
     public Category Category { get; set; } = null!;
 }
