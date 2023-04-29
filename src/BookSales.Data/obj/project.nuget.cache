@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "e4g5qeoCoNyl6iFVGGSQjZlzpiD0A19fqF6Yg2Pn2hcG0Ox13Fs1V7Gmkt9ybKZeChM0nYCB5yssETpZdnBhVw==",
+  "dgSpecHash": "g7g6MWp+F0UVK6i0zVHTV4IAMz4N0/Wh9DE20y4a2Bdrn4kk/uaZmhPHpFd1nvDkIeOWOFU2lba5fub0/XyVeg==",
   "success": true,
   "projectFilePath": "P:\\Programming\\Startups\\book-sales\\src\\BookSales.Data\\BookSales.DataAccess.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,7 @@
     "C:\\Users\\keldi\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\keldi\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\keldi\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\keldi\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\keldi\\.nuget\\packages\\npgsql\\6.0.8\\npgsql.6.0.8.nupkg.sha512",
     "C:\\Users\\keldi\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.8\\npgsql.entityframeworkcore.postgresql.6.0.8.nupkg.sha512",
     "C:\\Users\\keldi\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
