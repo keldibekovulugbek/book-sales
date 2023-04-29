@@ -9,10 +9,10 @@ public class User : Auditable
     public string FirstName { get; set; } = String.Empty;
 
     public string LastName { get; set; } = String.Empty;
-
+    
     public string? ImagePath { get; set; }
 
-    public string? PhoneNumber { get; set; }
+    public string PhoneNumber { get; set; } = String.Empty;
 
     public bool PhoneNumberConfirmed { get; set; } = false;
 
