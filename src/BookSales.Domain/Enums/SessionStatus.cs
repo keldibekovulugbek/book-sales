@@ -1,6 +1,7 @@
 ﻿namespace BookSales.Domain.Enums
 {
-    public class SessionStatus
+    public enum SessionStatus
     {
+        Active, Disactive
     }
 }
