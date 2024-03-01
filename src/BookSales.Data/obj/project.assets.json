@@ -27,7 +27,7 @@
           "System.Diagnostics.DiagnosticSource": "6.0.1"
         },
         "compile": {
-          "lib/net6.0/Microsoft.EntityFrameworkCore.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -43,7 +43,7 @@
       "Microsoft.EntityFrameworkCore.Abstractions/6.0.16": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -89,7 +89,7 @@
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -117,7 +117,7 @@
           "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll": {
+          "lib/netstandard2.0/_._": {
             "related": ".xml"
           }
         },
@@ -137,7 +137,7 @@
           "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll": {
+          "lib/netstandard2.0/_._": {
             "related": ".xml"
           }
         },
@@ -153,7 +153,7 @@
           "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+          "lib/netstandard2.0/_._": {
             "related": ".xml"
           }
         },
@@ -170,7 +170,7 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -186,7 +186,7 @@
       "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -209,7 +209,7 @@
           "System.Diagnostics.DiagnosticSource": "6.0.0"
         },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {
+          "lib/netstandard2.1/_._": {
             "related": ".xml"
           }
         },
@@ -222,7 +222,7 @@
       "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -242,7 +242,7 @@
           "Microsoft.Extensions.Primitives": "6.0.0"
         },
         "compile": {
-          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {
+          "lib/netstandard2.1/_._": {
             "related": ".xml"
           }
         },
@@ -258,7 +258,7 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -271,48 +271,13 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "Npgsql/6.0.8": {
-        "type": "package",
-        "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
-        },
-        "compile": {
-          "lib/net6.0/Npgsql.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Npgsql.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Npgsql.EntityFrameworkCore.PostgreSQL/6.0.8": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "6.0.12",
-          "Microsoft.EntityFrameworkCore.Abstractions": "6.0.12",
-          "Microsoft.EntityFrameworkCore.Relational": "6.0.12",
-          "Npgsql": "6.0.8"
-        },
-        "compile": {
-          "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "System.Collections.Immutable/6.0.0": {
         "type": "package",
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/System.Collections.Immutable.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -331,7 +296,7 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/System.Diagnostics.DiagnosticSource.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -347,7 +312,7 @@
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+          "lib/net6.0/_._": {
             "related": ".xml"
           }
         },
@@ -358,16 +323,6 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
-      "BookSales.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/BookSales.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BookSales.Domain.dll": {}
         }
       }
     }
@@ -712,44 +667,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Npgsql/6.0.8": {
-      "sha512": "wKa8MJEJaj0xQXUQZGv7q/KfPID23jSSvFFtljMworrv7dNajr0GN8PCU1SpywqHjMWdYEfK29DY1aYbiISbQg==",
-      "type": "package",
-      "path": "npgsql/6.0.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "lib/net5.0/Npgsql.dll",
-        "lib/net5.0/Npgsql.xml",
-        "lib/net6.0/Npgsql.dll",
-        "lib/net6.0/Npgsql.xml",
-        "lib/netcoreapp3.1/Npgsql.dll",
-        "lib/netcoreapp3.1/Npgsql.xml",
-        "lib/netstandard2.0/Npgsql.dll",
-        "lib/netstandard2.0/Npgsql.xml",
-        "lib/netstandard2.1/Npgsql.dll",
-        "lib/netstandard2.1/Npgsql.xml",
-        "npgsql.6.0.8.nupkg.sha512",
-        "npgsql.nuspec",
-        "postgresql.png"
-      ]
-    },
-    "Npgsql.EntityFrameworkCore.PostgreSQL/6.0.8": {
-      "sha512": "YJRpO+3wXQyWuwRUCVJj/Rsn46sY0bZ6uCGOEFApiRe0ZYJ6N6TxZUWKbTNJYjesickcLGzynOerpSbDJX1AYg==",
-      "type": "package",
-      "path": "npgsql.entityframeworkcore.postgresql/6.0.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "README.md",
-        "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll",
-        "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.xml",
-        "npgsql.entityframeworkcore.postgresql.6.0.8.nupkg.sha512",
-        "npgsql.entityframeworkcore.postgresql.nuspec",
-        "postgresql.png"
-      ]
-    },
     "System.Collections.Immutable/6.0.0": {
       "sha512": "l4zZJ1WU2hqpQQHXz1rvC3etVZN+2DLmQMO79FhOTZHMn8tDRr+WU287sbomD0BETlmKDn0ygUgVy9k5xkkJdA==",
       "type": "package",
@@ -822,18 +739,11 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
-    },
-    "BookSales.Domain/1.0.0": {
-      "type": "project",
-      "path": "../BookSales.Domain/BookSales.Domain.csproj",
-      "msbuildProject": "../BookSales.Domain/BookSales.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "BookSales.Domain >= 1.0.0",
-      "Microsoft.EntityFrameworkCore.Tools >= 6.0.16",
-      "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.8"
+      "Microsoft.EntityFrameworkCore.Tools >= 6.0.16"
     ]
   },
   "packageFolders": {
@@ -843,11 +753,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "P:\\Programming\\Startups\\book-sales\\src\\BookSales.Data\\BookSales.DataAccess.csproj",
+      "projectUniqueName": "D:\\Programming\\Startups\\book-sales\\src\\BookSales.Data\\BookSales.DataAccess.csproj",
       "projectName": "BookSales.DataAccess",
-      "projectPath": "P:\\Programming\\Startups\\book-sales\\src\\BookSales.Data\\BookSales.DataAccess.csproj",
+      "projectPath": "D:\\Programming\\Startups\\book-sales\\src\\BookSales.Data\\BookSales.DataAccess.csproj",
       "packagesPath": "C:\\Users\\keldi\\.nuget\\packages\\",
-      "outputPath": "P:\\Programming\\Startups\\book-sales\\src\\BookSales.Data\\obj\\",
+      "outputPath": "D:\\Programming\\Startups\\book-sales\\src\\BookSales.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -868,17 +778,18 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "P:\\Programming\\Startups\\book-sales\\src\\BookSales.Domain\\BookSales.Domain.csproj": {
-              "projectPath": "P:\\Programming\\Startups\\book-sales\\src\\BookSales.Domain\\BookSales.Domain.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -890,10 +801,6 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[6.0.16, )"
-          },
-          "Npgsql.EntityFrameworkCore.PostgreSQL": {
-            "target": "Package",
-            "version": "[6.0.8, )"
           }
         },
         "imports": [
@@ -912,7 +819,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200-preview.23624.5\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5GUtEi4rx4ZpEfOTFBPo3v/+9oUnX6pIMVfh4vs9LDCGRp4vWNESUVwpnuiCwXFrWxJ22xfWJpuUg11/3PBGhA==",
+  "dgSpecHash": "FMPceTT9Wpsyq04zdvhWFIevBDWY5yP2YN7mA/CxmDLO77e7VzG/bYm1p1qPQLd7uPui5xx/+i2o0D65fa3/9g==",
   "success": true,
-  "projectFilePath": "P:\\Programming\\Startups\\book-sales\\src\\BookSales.Domain\\BookSales.Domain.csproj",
+  "projectFilePath": "D:\\Programming\\Startups\\book-sales\\src\\BookSales.Domain\\BookSales.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

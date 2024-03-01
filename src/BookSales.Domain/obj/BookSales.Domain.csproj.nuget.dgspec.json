@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "P:\\Programming\\Startups\\book-sales\\src\\BookSales.Domain\\BookSales.Domain.csproj": {}
+    "D:\\Programming\\Startups\\book-sales\\src\\BookSales.Domain\\BookSales.Domain.csproj": {}
   },
   "projects": {
-    "P:\\Programming\\Startups\\book-sales\\src\\BookSales.Domain\\BookSales.Domain.csproj": {
+    "D:\\Programming\\Startups\\book-sales\\src\\BookSales.Domain\\BookSales.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "P:\\Programming\\Startups\\book-sales\\src\\BookSales.Domain\\BookSales.Domain.csproj",
+        "projectUniqueName": "D:\\Programming\\Startups\\book-sales\\src\\BookSales.Domain\\BookSales.Domain.csproj",
         "projectName": "BookSales.Domain",
-        "projectPath": "P:\\Programming\\Startups\\book-sales\\src\\BookSales.Domain\\BookSales.Domain.csproj",
+        "projectPath": "D:\\Programming\\Startups\\book-sales\\src\\BookSales.Domain\\BookSales.Domain.csproj",
         "packagesPath": "C:\\Users\\keldi\\.nuget\\packages\\",
-        "outputPath": "P:\\Programming\\Startups\\book-sales\\src\\BookSales.Domain\\obj\\",
+        "outputPath": "D:\\Programming\\Startups\\book-sales\\src\\BookSales.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -39,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -60,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200-preview.23624.5\\RuntimeIdentifierGraph.json"
         }
       }
     }
